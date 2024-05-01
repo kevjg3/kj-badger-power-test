@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+  <meta charset="UTF-8">
+  <title>Badger Power Calc</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> <!-- Add Google Fonts link -->
+  <link rel="icon" type="image/png" href="img.png">
+</head>
+<body>
+  <header>
+    <h1>Badger Power Calculator</h1>
+  </header>
+
+
+  <main>
+    <section>
+      <h2>Description</h2>
+      <p>Using baseline 25yd deadstop, calculator outputs power in Watts and velocity in m/s</p>
+    </section>
+
+
+    <div class="line"></div>
+    <section>
+      
+      <form id="codeForm">
+        <input id="lbsInput" placeholder="Mass (lbs)">
+        <div class="line"></div>
+      </form>
+
+      <form id="codeForm">
+        <input id="timeInput" placeholder="5yd Interval Splits (sec)">
+        <div class="line"></div>
+      </form>
+      <div id="outer">
+        <div class="inner"><button type="submit" value="time" onclick="power(document.getElementById('velo').value)">Submit Mass and Time</button></div>
+      </div>
+      <br>
+      <h3 id="power"></h3>
+      <h3 id="velo"></h3>
+    </section>
+  </main>
+ 
+  <script src="script.js"></script>
+</body>
+</html>

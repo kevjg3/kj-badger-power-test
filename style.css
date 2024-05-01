@@ -1,0 +1,137 @@
+/* Reset some default styles */
+body, h1, h2, p, textarea, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    background-color: #FF7A7A;
+  }
+  
+  #outer
+  {
+    width:100%;
+    text-align: center;
+  }
+  .inner
+  {
+    display: inline-block;
+  }
+  
+  body {
+    font-family: "Lato", Arial, sans-serif; 
+  }
+  
+  .custom-selector {
+    position: relative;
+    display: inline-block;
+    font-size: 110%;
+    color: #0d0d0d; 
+  }
+  
+  .custom-selector select {
+    width: 300px;
+    min-height: 50px;
+    background:#FFCED4;
+    border-radius: 10px;
+    border: 5px solid #FFCDD2;
+    outline: none;
+    padding: 0 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    appearance: none;
+  }
+  
+  .custom-selector .selector-options {
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    border-radius: 10px;
+    width: 50%;
+  }
+  
+  .custom-selector .selector-options li {
+    height: 40px;
+  }
+  
+  header { 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #FFCDD2; 
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #0d0d0d; /* Almost black */
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #0d0d0d; /* Almost black */
+    font-size: 110%;
+  }
+  .rubric{
+    color: #0d0d0d; /* Almost black */
+    font-size: 100%;
+    text-align: center;
+  
+  }
+  
+  form {
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 95%;
+    height: 20px;
+    padding: 10px;
+    border: 3px solid #FF6779 ;
+    resize: vertical;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #7A7AFF; 
+    color: #0D0D0D; /* Almost black */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded button */
+    transition: background-color 0.5s; /* Transition duration of 0.5 seconds */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #80C741; /* Green */
+  }
+  
+  
+  footer {
+    background-color: #FF5468; /* Earth brown */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #FFCDD2; /* Light grey */
+  }
+  
+  .line {
+    border-bottom: 1px solid #FF3C53; /* Line color */
+    margin: 25px 0;
+  }
