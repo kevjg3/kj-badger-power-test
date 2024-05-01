@@ -8,9 +8,9 @@ function power(time) {
 
     let distance = [4.572, 9.144, 13.716, 18.288, 22.86]
     let count = 0;
-    let strvelo = "Velocities in 5yd intervals: ";
+    let strvelo = "Velocity in 5yd intervals: ";
     let strpower = "Power Output in 5yd increments: ";
-    let straccel = "Accel in 5yd increments: ";
+    let straccel = "Acceleration in 5yd increments: ";
     
     while (count < 5) {
         let velo = distance[count] / timelist[count];
